@@ -1,0 +1,27 @@
+{
+  "name": "crusj/exception",
+  "description": "custom exception",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "crusj",
+      "email": "296769589@qq.com"
+    }
+  ],
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "crusj\\exceptions\\": "./exceptions"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-gd": ">=2.0"
+  },
+  "minimum-stability": "dev"
+}

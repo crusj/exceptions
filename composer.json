@@ -1,5 +1,5 @@
 {
-  "name": "crusj/exception",
+  "name": "crusj/exceptions",
   "description": "custom exception",
   "license": "MIT",
   "authors": [
@@ -20,8 +20,7 @@
     }
   },
   "require": {
-    "php": ">=7.2",
-    "ext-gd": ">=2.0"
+    "php": ">=7.2"
   },
   "minimum-stability": "dev"
 }
